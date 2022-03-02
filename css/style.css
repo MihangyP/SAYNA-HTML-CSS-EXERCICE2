@@ -1,0 +1,407 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900
+);
+
+/* Traitement du header */
+
+body {
+     margin: 0;
+     padding: 0;
+
+     color: white;
+     font-family: Raleway, Arial, sans-serif ;
+}
+
+header, main .section1{
+     background-color: #322f36;
+}
+
+nav img{
+     width: 300px;
+
+}
+
+nav a{
+     text-decoration: none;
+     color: #fff;
+}
+
+nav{
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: space-around;
+     height: 130px;
+     padding-right: 300px;
+     padding-left: 250px;
+     border-bottom: 1px solid #ababab41;
+}
+
+nav a.lienVert{  
+     color:#3d9f96;
+     text-decoration: underline;
+
+     margin-left: 60px;
+}
+
+/* Corps de la page */
+/* Partie1 */
+
+.section1{
+     text-align: center;
+     padding-top: 60px;
+}
+
+.section1 p span.h2{
+     font-size: 30px;
+}
+
+.gray{
+     color: #ababab;
+}
+
+.section1 p span.bold{
+     font-weight: 630;
+}
+
+section p span.green{
+     color:#3d9f96;
+     font-size: 14px;
+}
+
+input{
+     background-color:#3d9f96;
+     color: white;
+     width: 130px;
+     height: 35px;
+     border-radius: 20px;
+     border:none;
+     
+}
+
+div.imageOrdi{
+     margin-top: 100px;
+     margin-bottom: -16px;
+
+}
+
+/* Partie2 */
+
+.section2{
+     background-color: #f7f7f7;
+
+     padding-top: 40px;
+     padding-left: 400px;
+     padding-right: 400px;
+}
+
+.section2 div.icons{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.section2 p{
+     text-align: center;
+     color: #3d9f96;
+     font-weight: 550;
+     margin-top: 30px;
+     padding-bottom: 40px;
+}
+
+/* Partie3 */
+
+.section3{
+     padding: 30px;
+}
+
+.section3 p{
+     text-align: center;
+     color: black;
+}
+
+.section3 p.check{
+     font-size: 22px;
+}
+
+span.bold2{
+     font-weight: 700;
+}
+
+.section3 p.interligne{
+     line-height: 30px;
+     color: #ababab;
+}
+
+.conteneur1{
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+     margin-top: 65px;
+     background-image: url(img/map_bg.png);
+}
+
+h4{
+     color: black;
+}
+
+/* Pour mettre le logo Play au milieu */
+img.relative{ 
+     position: relative;
+     top: 50%;
+     left: 30%;
+}
+/* Fin logo */
+
+.item2{
+     background-image: url(img/image_190px_1.png);
+     background-repeat: no-repeat;
+     background-position: 50px 0px;
+     width: 300px;
+}
+
+.section3 > .conteneur1 > .item1 p, .item3 p{
+     color: #ababab;
+}
+
+/* partie4 */
+
+.section4{
+     background-color:#322f36;
+
+     padding-bottom: 30px;
+}
+
+.cerclePlein{
+     display: flex;
+     justify-content: center;
+
+     padding-top: 40px;
+}
+
+.section4 p{
+     text-align: center;
+     margin-top: 40px;
+}
+
+/* Partie 5 */
+
+.section5{
+     color: black;
+     padding-top: 100px;
+     padding-bottom: 50px;
+     background-color: #f7f7f7;
+}
+
+.section5 p{
+     margin-left: 410px;
+     margin-top: 0;
+     font-size: 20px;
+}
+
+figcaption{
+     font-weight: bold;
+}
+
+.section5 p span.gras{
+     font-weight:bold;
+}
+
+.conteneur2{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     margin-left:390px;
+     margin-right: 390px;
+     padding-top: 50px;
+}
+
+/* Partie 6 */
+
+.section6{
+     color: black;
+     padding-top: 50px;
+     padding-bottom: 20px;
+}
+
+.flexbox1{
+     display: flex;
+     justify-content: space-evenly;
+     margin-left: 350px;
+     margin-right: 350px;
+}
+
+.play{
+     background-image: url(img/dzdzd.png);
+     background-repeat: no-repeat;
+     width: 300px;
+     height: 400px;
+}
+
+.play img{
+     position: relative;
+     top: 100px;
+}
+
+.fontsize{
+     font-size: 20px;
+}
+
+.color{
+     color: #ababab;
+}
+
+.fontsize .Tested{
+     font-weight: bold;
+}
+
+.flexbox2{
+     display: flex;
+     justify-content: space-evenly;
+     margin-left: 350px;
+     margin-right: 350px;
+}
+
+/* footer */
+/* partie1 du footer */
+
+footer{
+     color: black;
+}
+
+.sectionfoot1 .sayna img{
+     width: 300px;
+}
+
+.sectionfoot1{
+     background-color: #f7f7f7;
+     display: flex;
+     justify-content: space-evenly;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-top: 50px;
+}
+
+.sectionfoot1 p{
+     line-height: 30px;
+}
+
+/* partie2 du footer */
+
+.sectionfoot2{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-left: 300px;
+     padding-right: 300px;
+}
+
+.petit{
+     font-size: 13.5px;
+}
+
+.footicons img{
+     padding: 8px;
+}
+
+.footicons img{
+    height: 25px;
+}
+
+
+/* quand l'écran est en-dessous de 1100px */
+
+@media (max-width: 1100px){
+     a{
+          display: none;
+     }
+     .section2 p{
+          display: none;
+     }
+     .section2{
+          padding-left: 0;
+          padding-right: 0;
+     }
+     
+     .conteneur2 .disparait{
+          display: none;
+     }
+     .section5 p{
+          margin-left: 180px;
+     }
+     .conteneur2 .marginTop{
+          margin-top: 60px;
+     }
+     .conteneur2{
+          margin-left: 270px;     
+     }
+     .flexbox1{
+          flex-direction: column;
+          margin-left: 0;
+          margin-right: 0;
+          align-items: center;
+        
+     }
+     .flexbox1 input, .flexbox2 input{
+          margin-left: 164px;
+     }
+     .flexbox2{
+          flex-direction: column-reverse;
+          margin-left: 0;
+          margin-right: 0;
+          align-items: center;
+         
+     }
+     p.fontsize{
+          text-align: center;
+     }
+     .text{
+          width: 500px;
+          margin-left: 0px;
+     }
+     .phoneIncline{
+          margin-left: -50px;
+          margin-top: 100px;
+     }
+     /* footer */
+     .sectionfoot1{
+          padding-left: 0;
+          padding-right: 0;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+     }
+     .sectionfoot2{
+          padding-left: 0;
+          padding-right: 0;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 150px;
+     }
+     .sectionfoot2 img{
+          padding: 35px;
+     }
+     h3, p.color{
+          text-align: center;
+     }
+     
+}
+
+/* Quand l'écran est en-dessous de 660px */
+
+@media (max-width: 660px){
+     .conteneur1{
+          margin: 0;
+          padding: 0;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     div.item2{
+          height: 329px;
+     }
+     h4{
+          text-align: center;
+     }
+    
+}
